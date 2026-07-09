@@ -24,3 +24,44 @@ a {
   width: 84%;
   margin-inline: auto;
 }
+
+/* ========== Navbar part styles start from here ========== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.nav-links li a {
+  display: block;
+  font-size: 1rem;
+  text-transform: capitalize;
+  line-height: 160%;
+  color: #575757;
+  transition: all linear 0.9s;
+  &:hover {
+    color: #d7b6b6;
+  }
+}
+.primary-btn {
+  padding: 12px 24px;
+  border-radius: 10px;
+  background-color: #1d4ed8;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 160%;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  &:hover {
+    background-color: #575757;
+  }
+}
+/* ========== Navbar part styles end here ========== */
