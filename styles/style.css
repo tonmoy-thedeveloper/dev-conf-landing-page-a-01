@@ -43,7 +43,7 @@ nav {
   text-transform: capitalize;
   line-height: 160%;
   color: #575757;
-  transition: all linear 0.9s;
+  transition: all linear 0.3s;
   &:hover {
     color: #d7b6b6;
   }
@@ -70,7 +70,8 @@ nav {
 /* ========== Hero section styles start from here ========== */
 #hero-area {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6)), url(../images/banner.jpg);
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+    url(../images/banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,3 +96,59 @@ nav {
   margin-bottom: 250px;
 }
 /* ========== Hero section styles end here ========== */
+
+/* ========== Speakers section's style start from here ========== */
+#speakers {
+  margin: 80px auto;
+}
+.section-title {
+  font-size: 3rem;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 4rem;
+  color: #0d1b2a;
+  font-weight: 700;
+  margin-bottom: 56px;
+}
+
+.speakers-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.speaker-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+.speaker-card img {
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  object-fit: cover;
+}
+.speaker-card > .speaker-card-con {
+  padding: 24px;
+}
+.speaker-card-con .speaker-expertise {
+  color: #2563eb;
+  font-size: 0.5rem;
+  line-height: 160%;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.speaker-card-con .speaker-name {
+  color: #0d1b2a;
+  font-size: 1.25rem;
+  line-height: 160%;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 8px 0;
+}
+.speaker-card-con .speaker-position {
+  color: #575757;
+  font-size: 0.875rem;
+  font-weight: 160%;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+/* ========== Speakers section's style end here ========== */
