@@ -26,6 +26,11 @@ a {
 }
 
 /* ========== Navbar part styles start from here ========== */
+header {
+  background: #fff;
+  position: sticky;
+  top: 0px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -265,7 +270,7 @@ nav {
 .venue-item-container {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 48px;
 }
 .venue-content,
 .venue-img {
@@ -299,7 +304,11 @@ nav {
 .venue-card-container .venue-card {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
+  padding: 24px;
+  background: #161616;
+  border-radius: 8px;
+  border: 1px solid #ffffff10;
 }
 .venue-card-icon {
   background-color: blue;
