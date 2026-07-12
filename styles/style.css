@@ -255,11 +255,129 @@ nav {
 }
 /* ========== Pricing section's style end here ========== */
 
+/* ========== Venue section's style start from here ========== */
+#venue {
+  padding: 48px 0;
+  background: #0a0a0a;
+  color: #fff;
+  margin-top: 48px;
+}
+.venue-item-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.venue-content,
+.venue-img {
+  flex: 1;
+}
+.venue-head .section-title {
+  margin-bottom: 24px;
+  color: #fff;
+  text-align: start;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.venue-head p {
+  font-size: 20px;
+  color: #99a1af;
+  text-transform: capitalize;
+  line-height: 160%;
+  margin-bottom: 40px;
+}
+.venue-head p > span {
+  color: #fff;
+  font-weight: 600;
+}
+
+.venue-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.venue-card-container .venue-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.venue-card-icon {
+  background-color: blue;
+  display: flex;
+  padding: 8px;
+  border-radius: 8px;
+}
+.venue-card .venue-card-text h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 160%;
+}
+.venue-card .venue-card-text p {
+  font-size: 14px;
+  /* font-weight: 700; */
+  color: #99a1af;
+  text-transform: capitalize;
+  line-height: 160%;
+}
+.venue-content .location {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.location .location-details h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 160%;
+  font-weight: 700;
+  color: #99a1af;
+  margin-bottom: 4px;
+}
+.location-details p {
+  font-size: 1rem;
+  line-height: 160%;
+  color: #fff;
+  font-weight: 500;
+}
+.venue-image {
+  position: relative;
+}
+
+.venue-image img {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #fff;
+}
+.venue-image .overlay {
+  top: 0;
+  right: 0;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.tag {
+  bottom: 20px;
+  left: 20px;
+  z-index: 2;
+  position: absolute;
+}
+.tag span {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  padding: 4px 12px;
+  background: blue;
+  border-radius: 2px;
+}
+/* ========== Venue section's style end here ========== */
+
 /* ========== Footer section's style start from here ========== */
 footer {
-  /* background: #25313f; */
   background-color: #0d1b2a;
-
   color: #fff;
 }
 .footer-content {
@@ -268,7 +386,7 @@ footer {
   align-items: center;
   gap: 48px;
   padding: 48px 0;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #ffffff54;
 }
 .left,
 .middle,
